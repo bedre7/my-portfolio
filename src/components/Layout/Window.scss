@@ -1,0 +1,10 @@
+/* styles.css */
+.page-transition {
+  position: absolute; /* Set the component to absolute position */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden; /* Hide any overflow */
+  padding: 20px; /* Add some padding for spacing */
+}
