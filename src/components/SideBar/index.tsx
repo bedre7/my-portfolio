@@ -8,59 +8,29 @@ import { ReactComponent as BriefCaseIcon } from "../../assets/svg/briefcase.svg"
 import { ReactComponent as Rocket } from "../../assets/svg/rocket.svg";
 import { ReactComponent as ContactIcon } from "../../assets/svg/contact.svg";
 import SideBarLink from "./SideBarLink";
+import "./SideBar.scss";
 
 const SideBar = () => {
   return (
     <div className="min-h-screen w-1/5 bg-gray-900 shadow-lg">
       <ul>
+        <SideBarLink icon={<HomeIcon className="icon" />} text="Home" />
+        <SideBarLink icon={<ProfileIcon className="icon" />} text="About" />
         <SideBarLink
-          icon={
-            <HomeIcon className="h-8 w-8 fill-gray-400 transition-all group-hover:fill-gray-900" />
-          }
-          text="Home"
-        />
-        <SideBarLink
-          icon={
-            <ProfileIcon className="h-8 w-8 fill-gray-400 transition-all group-hover:fill-gray-900" />
-          }
-          text="About"
-        />
-        <SideBarLink
-          icon={
-            <BadgeIcon className="h-8 w-8 fill-gray-400 transition-all group-hover:fill-gray-900" />
-          }
+          icon={<BadgeIcon className="icon" />}
           text="Achievements"
         />
         <SideBarLink
-          icon={
-            <CertificateIcon className="h-8 w-8 fill-gray-400 transition-all group-hover:fill-gray-900" />
-          }
+          icon={<CertificateIcon className="icon" />}
           text="Certificates"
         />
+        <SideBarLink icon={<ToolsIcon className="icon" />} text="Skills" />
         <SideBarLink
-          icon={
-            <ToolsIcon className="h-8 w-8 fill-gray-400 transition-all group-hover:fill-gray-900" />
-          }
-          text="Skills"
-        />
-        <SideBarLink
-          icon={
-            <BriefCaseIcon className="h-8 w-8 fill-gray-400 transition-all group-hover:fill-gray-900" />
-          }
+          icon={<BriefCaseIcon className="icon" />}
           text="Experience"
         />
-        <SideBarLink
-          icon={
-            <Rocket className="h-8 w-8 fill-gray-400 transition-all group-hover:fill-gray-900" />
-          }
-          text="Projects"
-        />
-        <SideBarLink
-          icon={
-            <ContactIcon className="h-8 w-8 fill-gray-400 transition-all group-hover:fill-gray-900" />
-          }
-          text="Contact"
-        />
+        <SideBarLink icon={<Rocket className="icon" />} text="Projects" />
+        <SideBarLink icon={<ContactIcon className="icon" />} text="Contact" />
       </ul>
     </div>
   );

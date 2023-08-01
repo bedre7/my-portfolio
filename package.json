@@ -50,6 +50,7 @@
   },
   "devDependencies": {
     "@types/ityped": "^1.0.1",
+    "@types/node-sass": "^4.11.3",
     "gh-pages": "^5.0.0",
     "prettier": "^3.0.0",
     "prettier-plugin-tailwindcss": "^0.4.1",
