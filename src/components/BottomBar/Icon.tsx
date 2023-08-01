@@ -3,11 +3,12 @@ import { useNavigate } from "react-router-dom";
 
 const Icon: FC<{ src: string; alt: string }> = ({ src, alt }) => {
   const navigate = useNavigate();
+  const path = alt === "Home" ? "./" : `./${alt.toLowerCase()}`;
 
   return (
     <button
       className="group relative cursor-pointer rounded-md focus:ring-2 focus:ring-gray-600"
-      onClick={() => navigate(alt.toLowerCase())}
+      onClick={() => navigate(path)}
     >
       <p className="absolute bottom-16 origin-bottom scale-0 transform rounded-md bg-gray-200 px-2 shadow-xl transition-all duration-150 group-hover:scale-100">
         {alt}

@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="relative min-h-screen">
       <Routes>
-        <Route path="/home" element={<Home />} />
+        <Route path="/" element={<Home />} />
         <Route path="/*" element={<WindowWrapper />} />
       </Routes>
       <BottomBar />

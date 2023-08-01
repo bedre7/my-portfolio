@@ -14,7 +14,7 @@ const WindowWrapper = () => {
     <Routes>
       <Route
         path="/about"
-        element={ 
+        element={
           <Window
             icon={<ProfileIcon className="fill-gray-400" />}
             header="About"
@@ -87,7 +87,7 @@ const WindowWrapper = () => {
 };
 
 const Test = () => {
-  return <div>Test</div>;
+  return <div></div>;
 };
 
 export default WindowWrapper;
