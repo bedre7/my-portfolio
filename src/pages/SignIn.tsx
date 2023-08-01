@@ -1,11 +1,24 @@
-import React, { FC } from "react";
+import React, { FC, useEffect, useState } from "react";
 import "./SignIn.scss";
 import Profile from "../assets/img/profile.png";
 
 const SignIn: FC<{ onSignIn: () => void }> = ({ onSignIn }) => {
+  const [isBlurred, setIsBlurred] = useState(false);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setIsBlurred(true);
+    }, 1500);
+
+    return () => {
+      clearTimeout(timer);
+    };
+  }, []);
+
   return (
     <div className="bg-img flex min-h-screen min-w-full items-center justify-center">
-      <div>
+      {isBlurred && <div className="blur-overlay"></div>}
+      <div className="zoom-in z-10">
         <img
           src={Profile}
           alt="profile"
