@@ -5,7 +5,7 @@ const SideBarLink: FC<{ icon: ReactNode; text: string }> = ({ icon, text }) => {
   return (
     <li className="group mb-1.5 p-2 transition-all hover:bg-pink-500">
       <NavLink
-        to={`/${text.toLowerCase()}`}
+        to={`/${text === "Home" ? "" : text.toLowerCase()}`}
         className="group ml-6 flex items-center justify-start space-x-6"
         style={({ isActive }) => ({
           transform: `${isActive ? "scale(1.1)" : ""} !important`,
