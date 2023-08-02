@@ -1,6 +1,6 @@
 import React, { FC, useEffect, useState } from "react";
 import "./SignIn.scss";
-import Profile from "../assets/img/profile.png";
+import Profile from "../assets/img/me.jpg";
 
 const SignIn: FC<{ onSignIn: () => void }> = ({ onSignIn }) => {
   const [isBlurred, setIsBlurred] = useState(false);
@@ -19,11 +19,13 @@ const SignIn: FC<{ onSignIn: () => void }> = ({ onSignIn }) => {
     <div className="bg-img flex min-h-screen min-w-full items-center justify-center">
       {isBlurred && <div className="blur-overlay"></div>}
       <div className="zoom-in z-10">
-        <img
-          src={Profile}
-          alt="profile"
-          className="flex w-full cursor-pointer items-center justify-center opacity-90 transition-all duration-100 hover:opacity-100"
-        />
+        <div className="mb-5 flex w-full items-center justify-center">
+          <img
+            src={Profile}
+            alt="profile"
+            className="h-64 cursor-pointer rounded-full opacity-90 transition-all duration-100 hover:opacity-100"
+          />
+        </div>
         <h3 className="text-center text-3xl font-semibold text-gray-300">
           Bedru
         </h3>
@@ -34,7 +36,7 @@ const SignIn: FC<{ onSignIn: () => void }> = ({ onSignIn }) => {
           className="my-6 w-full rounded-md border-2 border-purple-400 bg-gray-800 p-2 text-lg tracking-widest text-purple-500 focus:border-purple-600 focus:outline-none"
         />
         <button
-          className="mt-2 w-full animate-pulse rounded-lg border-2 border-purple-600 bg-purple-600 p-2 text-center text-xl font-semibold transition-all duration-100 hover:animate-none hover:bg-transparent hover:text-purple-600"
+          className="mt-2 w-full animate-pulse overflow-hidden rounded-lg border-[1px] border-transparent bg-gradient-to-r from-purple-600 to-pink-600 p-2 text-center text-xl font-semibold transition-all duration-100 hover:animate-none hover:border-purple-600 hover:bg-gradient-to-r hover:from-transparent hover:to-transparent hover:text-purple-600 focus:outline-none"
           onClick={onSignIn}
         >
           Sign in

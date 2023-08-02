@@ -10,8 +10,10 @@ const Window: FC<{
   return (
     <div className="min-w-screen min-h-screen bg-gray-800">
       <TopBar icon={icon} header={header} />
-      <SideBar />
-      {content}
+      <div className="flex items-start justify-start">
+        <SideBar />
+        {content}
+      </div>
     </div>
   );
 };

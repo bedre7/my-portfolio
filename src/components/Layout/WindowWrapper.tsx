@@ -8,6 +8,9 @@ import { ReactComponent as BriefCaseIcon } from "../../assets/svg/briefcase.svg"
 import { ReactComponent as Rocket } from "../../assets/svg/rocket.svg";
 import { ReactComponent as ContactIcon } from "../../assets/svg/contact.svg";
 import { Routes, Route } from "react-router-dom";
+import About from "../../pages/About";
+import Contact from "../../pages/Contact";
+import Skills from "../../pages/Skills";
 
 const WindowWrapper = () => {
   return (
@@ -18,7 +21,7 @@ const WindowWrapper = () => {
           <Window
             icon={<ProfileIcon className="fill-gray-400" />}
             header="About"
-            content={<Test />}
+            content={<About />}
           />
         }
       />
@@ -48,7 +51,7 @@ const WindowWrapper = () => {
           <Window
             icon={<ToolsIcon className="fill-gray-400" />}
             header="Skills"
-            content={<Test />}
+            content={<Skills />}
           />
         }
       />
@@ -78,7 +81,7 @@ const WindowWrapper = () => {
           <Window
             icon={<ContactIcon className="fill-gray-400" />}
             header="Contact"
-            content={<Test />}
+            content={<Contact />}
           />
         }
       />
