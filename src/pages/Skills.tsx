@@ -14,45 +14,45 @@ const Skills = () => {
       <div className="flex items-center justify-start space-x-4">
         <Arrow className="h-6 w-6 fill-pink-400" />
         <h2 className="text-xl font-semibold text-pink-400">
-          Programming Languages / Technologies
+          &lt;Programming Languages & Frameworks /&gt;
         </h2>
       </div>
-      <ul className="mt-5 flex flex-wrap">
+      <ul className="mt-5 flex max-w-3xl flex-wrap">
         {programmingLanguages.map((skill, index) => (
-          <li key={index} className="">
+          <li key={index} className="cursor-pointer">
             <img src={skill} alt="skill" className="h-8" />
           </li>
         ))}
       </ul>
       <div className="mt-6 flex items-center justify-start space-x-4">
         <Arrow className="h-6 w-6 fill-pink-400" />
-        <h2 className="text-xl font-semibold text-pink-400">Databases</h2>
+        <h2 className="text-xl font-semibold text-pink-400">&lt;Databases /&gt;</h2>
       </div>
       <ul className="mt-5 flex flex-wrap">
         {databases.map((skill, index) => (
-          <li key={index} className="">
+          <li key={index} className="cursor-pointer">
             <img src={skill} alt="skill" className="h-8" />
           </li>
         ))}
       </ul>
       <div className="mt-6 flex items-center justify-start space-x-4">
         <Arrow className="h-6 w-6 fill-pink-400" />
-        <h2 className="text-xl font-semibold text-pink-400">Soft Skills</h2>
+        <h2 className="text-xl font-semibold text-pink-400">&lt;Soft Skills /&gt;</h2>
       </div>
       <ul className="mt-5 space-y-3 font-medium text-gray-300">
-        <li className="flex items-center space-x-4 fill-green-400">
+        <li className="flex cursor-pointer items-center space-x-4 fill-green-400">
           <Magic className="h-6 w-6" />
           <span>Creativity</span>
         </li>
-        <li className="flex items-center space-x-4 fill-yellow-400">
+        <li className="flex cursor-pointer items-center space-x-4 fill-yellow-400">
           <Bulb className="h-6 w-6" />
           <span>Problem Solving</span>
         </li>
-        <li className="fill flex items-center space-x-4">
+        <li className="fill flex cursor-pointer items-center space-x-4">
           <Cog className="h-6 w-6 fill-purple-500" />
           <span>Teamwork</span>
         </li>
-        <li className="flex items-center space-x-4">
+        <li className="flex cursor-pointer items-center space-x-4">
           <Time className="h-6 w-6 fill-teal-400" />
           <span>Time Management</span>
         </li>

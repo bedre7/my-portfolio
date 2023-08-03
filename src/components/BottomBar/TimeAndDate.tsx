@@ -13,7 +13,7 @@ const TimeAndDate = () => {
   const year = date.toLocaleDateString("en-US", { year: "numeric" });
 
   return (
-    <div className="mr-2 hidden cursor-pointer rounded-md px-3 transition-all hover:bg-gray-700 md:block">
+    <div className="hidden cursor-pointer rounded-md px-3 transition-all hover:bg-gray-700 md:block">
       <p className="text-sm text-white">{time}</p>
       <p className="text-sm text-white">
         {month}/{dayOfMonth}/{year}
