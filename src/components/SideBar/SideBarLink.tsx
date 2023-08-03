@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 
 const SideBarLink: FC<{ icon: ReactNode; text: string }> = ({ icon, text }) => {
   return (
-    <li className="group mx-2 mb-1.5 border-b-[1px] border-gray-500 p-2 transition-all hover:bg-gray-500">
+    <li className="group mx-2 mb-1.5 rounded-md border-b-[1px] border-gray-500 p-2 transition-all hover:translate-x-3 hover:bg-indigo-500">
       <NavLink
         to={`/${text === "Home" ? "" : text.toLowerCase()}`}
         className="group ml-6 flex items-center justify-start space-x-6"

@@ -12,7 +12,7 @@ import "./SideBar.scss";
 
 const SideBar = () => {
   return (
-    <div className="h-[94vh] hidden w-1/5 bg-gray-900 pt-6 shadow-lg md:block">
+    <div className="hidden h-[94vh] w-1/5 bg-gray-800 pt-6 shadow-2xl md:inline-block">
       <ul>
         <SideBarLink icon={<HomeIcon className="icon" />} text="Home" />
         <SideBarLink icon={<ProfileIcon className="icon" />} text="About" />

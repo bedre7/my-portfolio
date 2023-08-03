@@ -1,0 +1,32 @@
+{
+  "projects": [
+    {
+      "title": "Abugida",
+      "link": "https://github.com/bedre7/abugida/",
+      "image": "https://raw.githubusercontent.com/bedre7/abugida/main/frontend/src/assets/AppScreenshot.png",
+      "description": "Created my own interpreted programming language using Python. \n It supports...",
+      "features": [
+        "Basic data types like numbers, strings and lists.",
+        "Variables declaration and assignments.",
+        "Control flow statements like if-else, for and while loops.",
+        "Built-in functions like print, input, len, etc.",
+        "Arithmetic and logical operations."
+      ],
+      "tags": ["Python", "React", "Typescript", "SCSS", "Flask"]
+    },
+    {
+      "title": "Smart Garage",
+      "link": "https://github.com/bedre7/smart-garage",
+      "image": "https://raw.githubusercontent.com/bedre7/smart-garage/main/screenshots/Screenshot_1672344516.png",
+      "description": "Created my own interpreted programming language using Python. \n It supports...",
+      "features": [
+        "Basic data types like numbers, strings and lists.",
+        "Variables declaration and assignments.",
+        "Control flow statements like if-else, for and while loops.",
+        "Built-in functions like print, input, len, etc.",
+        "Arithmetic and logical operations."
+      ],
+      "tags": ["Python", "React", "Typescript", "SCSS", "Flask"]
+    }
+  ]
+}

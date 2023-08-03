@@ -8,9 +8,9 @@ const Window: FC<{
   content: ReactNode;
 }> = ({ icon, header, content }) => {
   return (
-    <div className="min-w-screen flex min-h-screen flex-col bg-gray-800">
+    <div className="min-w-screen flex flex-col bg-gray-800 ">
       <TopBar icon={icon} header={header} />
-      <div className="flex flex-1 items-start justify-start">
+      <div className="flex items-start justify-start">
         <SideBar />
         {content}
       </div>

@@ -12,7 +12,7 @@ import Icon from "./Icon";
 
 const BottomBar = () => {
   return (
-    <div className="fixed bottom-5 flex w-full items-center justify-between rounded-full bg-gradient-to-br from-gray-600 to-transparent md:left-1/2 md:w-auto md:-translate-x-1/2 md:transform md:space-x-6 md:px-20 md:py-2 ">
+    <div className="fixed bottom-5 flex w-full items-center justify-between rounded-full bg-gradient-to-br from-gray-600 to-transparent md:left-1/2 md:w-auto md:-translate-x-1/2 md:transform md:space-x-6 md:px-20 md:py-2">
       <div className="mx-auto flex items-center justify-center space-x-4">
         <Icon src={Home} alt="Home" />
         <Icon src={Profile} alt="About" />
