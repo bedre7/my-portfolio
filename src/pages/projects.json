@@ -4,7 +4,7 @@
       "title": "Abugida",
       "link": "https://github.com/bedre7/abugida/",
       "image": "https://raw.githubusercontent.com/bedre7/abugida/main/frontend/src/assets/AppScreenshot.png",
-      "description": "Created my own interpreted programming language using Python. \n It supports...",
+      "description": "Created my own interpreted programming language using Python.",
       "features": [
         "Basic data types like numbers, strings and lists.",
         "Variables declaration and assignments.",
@@ -17,14 +17,12 @@
     {
       "title": "Smart Garage",
       "link": "https://github.com/bedre7/smart-garage",
-      "image": "https://raw.githubusercontent.com/bedre7/smart-garage/main/screenshots/Screenshot_1672344516.png",
-      "description": "Created my own interpreted programming language using Python. \n It supports...",
+      "image": "https://raw.githubusercontent.com/bedre7/my-portfolio/main/src/assets/img/smart-garage.jpg?token=GHSAT0AAAAAABNLRJ5Y2QE22OS36TM5NYCCZGLYTUQ",
+      "description": "A mobile app making use of IoT cloud platforms to enable authorized users to control their Smart garage and Delivery box remotely using their smart phone.",
       "features": [
-        "Basic data types like numbers, strings and lists.",
-        "Variables declaration and assignments.",
-        "Control flow statements like if-else, for and while loops.",
-        "Built-in functions like print, input, len, etc.",
-        "Arithmetic and logical operations."
+        "User login and signup.",
+        "Enable users to get notified if their garage/delivery box is left open for long time.",
+        "Enable users to set auto-close mode to be engaged after a specific time."
       ],
       "tags": ["Python", "React", "Typescript", "SCSS", "Flask"]
     }

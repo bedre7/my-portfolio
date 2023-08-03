@@ -66,7 +66,7 @@ const ProjectItem: FC<Props> = ({
           ))}
         </ul>
         <div className="mt-3 flex w-full items-center justify-end">
-          <button className=" rounded-lg bg-purple-600 px-5 py-1 transition-all hover:bg-purple-700 mr-4">
+          <button className=" mr-4 rounded-lg bg-purple-600 px-5 py-1 transition-all hover:bg-purple-700">
             <div className="flex items-center justify-center space-x-4">
               <span className="font-semibold text-gray-200">Show</span>
               <Github className="fill-gray-200" />
