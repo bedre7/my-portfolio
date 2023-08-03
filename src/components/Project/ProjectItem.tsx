@@ -40,7 +40,7 @@ const ProjectItem: FC<Props> = ({
       target="blank"
     >
       <img
-        className="w-[38rem] rounded-l-2xl opacity-[0.85] transition-all group-hover:opacity-100"
+        className="w-[36rem] rounded-l-2xl opacity-[0.85] transition-all group-hover:opacity-100"
         src={image}
         alt="project snapshot"
       />
@@ -59,13 +59,13 @@ const ProjectItem: FC<Props> = ({
           {tags.map((tag, index) => (
             <li
               key={index}
-              className={`${getRandomColor()} rounded-md px-2 py-1 text-sm font-semibold text-white`}
+              className={`${getRandomColor()} rounded-md px-2 py-1 text-xs font-semibold text-white`}
             >
               # {tag}
             </li>
           ))}
         </ul>
-        <div className="mt-3 flex w-full items-center justify-end">
+        <div className="mt-[1rem] flex w-full items-center justify-end">
           <button className=" mr-4 rounded-lg bg-purple-600 px-5 py-1 transition-all hover:bg-purple-700">
             <div className="flex items-center justify-center space-x-4">
               <span className="font-semibold text-gray-200">Show</span>
