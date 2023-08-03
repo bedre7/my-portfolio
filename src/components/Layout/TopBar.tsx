@@ -17,11 +17,11 @@ const TopBar: FC<{ icon: React.ReactNode; header: string }> = ({
       </div>
       <div className="flex items-center justify-end space-x-4">
         <MinimizeIcon
-          className="h-7 w-7 cursor-pointer rounded-sm fill-blue-600 p-1 ring-1 transition-all hover:bg-blue-600 hover:fill-black hover:opacity-80"
+          className="h-7 w-7 cursor-pointer rounded-full fill-blue-600 p-1 ring-1 transition-all hover:bg-blue-600 hover:fill-black hover:opacity-80"
           onClick={() => navigate("/")}
         />
         <CloseIcon
-          className="h-7 w-7 cursor-pointer rounded-sm fill-pink-600 p-1 ring-1 transition-all hover:bg-pink-600 hover:fill-black hover:opacity-80"
+          className="h-7 w-7 cursor-pointer rounded-full fill-pink-600 p-1 ring-1 transition-all hover:bg-pink-600 hover:fill-black hover:opacity-80"
           onClick={() => navigate("/")}
         />
       </div>

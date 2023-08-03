@@ -11,6 +11,10 @@ import { Routes, Route } from "react-router-dom";
 import About from "../../pages/About";
 import Contact from "../../pages/Contact";
 import Skills from "../../pages/Skills";
+import Achievements from "../../pages/Achievements";
+import Projects from "../../pages/Projects";
+import Experience from "../../pages/Experience";
+import Certificates from "../../pages/Certificates";
 
 const WindowWrapper = () => {
   return (
@@ -31,7 +35,7 @@ const WindowWrapper = () => {
           <Window
             icon={<BadgeIcon className="fill-gray-400" />}
             header="Achievements"
-            content={<Test />}
+            content={<Achievements />}
           />
         }
       />
@@ -41,7 +45,7 @@ const WindowWrapper = () => {
           <Window
             icon={<CertificateIcon className="fill-gray-400" />}
             header="Certificates"
-            content={<Test />}
+            content={<Certificates />}
           />
         }
       />
@@ -61,7 +65,7 @@ const WindowWrapper = () => {
           <Window
             icon={<BriefCaseIcon className="fill-gray-400" />}
             header="Experience"
-            content={<Test />}
+            content={<Experience />}
           />
         }
       />
@@ -71,7 +75,7 @@ const WindowWrapper = () => {
           <Window
             icon={<Rocket className="fill-gray-400" />}
             header="Projects"
-            content={<Test />}
+            content={<Projects />}
           />
         }
       />
@@ -87,10 +91,6 @@ const WindowWrapper = () => {
       />
     </Routes>
   );
-};
-
-const Test = () => {
-  return <div></div>;
 };
 
 export default WindowWrapper;
