@@ -12,7 +12,7 @@
         "Built-in functions like print, input, len, etc.",
         "Arithmetic and logical operations."
       ],
-      "tags": ["Python", "React", "Typescript", "SCSS", "Flask"]
+      "tags": ["Python", "React", "Typescript", "SCSS", "Flask"],
     },
     {
       "title": "Smart Garage",
@@ -24,7 +24,7 @@
         "Enable users to get notified if their garage/delivery box is left open for long time.",
         "Enable users to set auto-close mode to be engaged after a specific time."
       ],
-      "tags": ["Python", "React", "Typescript", "SCSS", "Flask"]
+      "tags": ["Python", "React", "Typescript", "SCSS", "Flask"],
     }
   ]
 }
