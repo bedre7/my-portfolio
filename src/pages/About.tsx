@@ -5,7 +5,7 @@ import GitHubCalendar from "react-github-calendar";
 const About = () => {
   const age = new Date().getFullYear() - 2000;
   return (
-    <div className="flex min-h-screen flex-1 flex-col justify-evenly px-20 pb-20">
+    <div className="flex flex-1 flex-col justify-evenly px-20 py-10">
       <div>
         <Header>About me</Header>
         <p className="text-gray-300">
@@ -23,7 +23,7 @@ const About = () => {
           spare time.
         </p>
       </div>
-      <h2 className="text-xl font-semibold text-gray-300">
+      <h2 className="mt-20 text-xl font-semibold text-gray-300">
         My GitHub contributions
       </h2>
       <div className="text-teal-400">

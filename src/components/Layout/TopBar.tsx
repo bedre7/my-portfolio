@@ -10,7 +10,7 @@ const TopBar: FC<{ icon: React.ReactNode; header: string }> = ({
   const navigate = useNavigate();
 
   return (
-    <div className="flex h-10 w-full items-center justify-between rounded-t-xl bg-gray-700 pr-4 text-white shadow-lg">
+    <div className="flex h-[6vh] w-full items-center justify-between rounded-t-xl bg-gray-700 pr-4 text-white shadow-lg">
       <div className="flex cursor-pointer items-center justify-center pl-10">
         {icon}
         <h3 className="pl-6 text-lg">{header}</h3>
