@@ -22,6 +22,7 @@ const ProjectItem: FC<Props> = ({
   const colors = [
     "bg-red-400",
     "bg-yellow-400",
+    "bg-slate-400",
     "bg-green-400",
     "bg-blue-400",
     "bg-indigo-400",
@@ -35,17 +36,19 @@ const ProjectItem: FC<Props> = ({
 
   return (
     <a
-      className="group mb-8 flex transform items-start justify-center space-x-5 rounded-2xl bg-slate-900 shadow-md transition-all hover:-translate-y-1 hover:translate-x-1 hover:bg-gray-700 hover:shadow-2xl"
+      className="group mb-8 flex transform flex-col items-start justify-center space-x-5 rounded-2xl bg-slate-900 shadow-md transition-all hover:-translate-y-1 hover:translate-x-1 hover:bg-gray-700 hover:shadow-2xl md:flex-row"
       href={link}
       target="blank"
     >
       <img
-        className="w-[36rem] rounded-l-2xl opacity-[0.85] transition-all group-hover:opacity-100"
+        className="w-[36rem] rounded-t-2xl opacity-[0.85] transition-all group-hover:opacity-100 md:rounded-l-xl md:rounded-t-none"
         src={image}
         alt="project snapshot"
       />
       <div className="p-4">
-        <h1 className="mb-2 text-2xl font-bold text-indigo-400">{title}</h1>
+        <h1 className="mb-2 text-center text-2xl font-bold text-indigo-400 md:text-left">
+          {title}
+        </h1>
         <p className="text-md text-gray-300">{description}</p>
         <ul>
           {features.map((feature, index) => (
@@ -65,8 +68,8 @@ const ProjectItem: FC<Props> = ({
             </li>
           ))}
         </ul>
-        <div className="mt-[1rem] flex w-full items-center justify-end">
-          <button className=" mr-4 rounded-lg bg-purple-600 px-5 py-1 transition-all hover:bg-purple-700">
+        <div className="mt-[1rem] flex w-full items-center justify-center md:justify-end">
+          <button className="w-full rounded-lg bg-purple-600 px-5 py-1 transition-all hover:bg-purple-700 md:w-1/3">
             <div className="flex items-center justify-center space-x-4">
               <span className="font-semibold text-gray-200">Show</span>
               <Github className="fill-gray-200" />

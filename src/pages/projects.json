@@ -17,7 +17,7 @@
     {
       "title": "Smart Garage",
       "link": "https://github.com/bedre7/smart-garage",
-      "image": "https://raw.githubusercontent.com/bedre7/my-portfolio/main/src/assets/img/smart-garage.jpg?token=GHSAT0AAAAAABNLRJ5YC7QFZVNIK4WAZKDMZGLZAGQ",
+      "image": "https://raw.githubusercontent.com/bedre7/my-portfolio/main/src/assets/img/smart-garage.jpg?token=GHSAT0AAAAAABNLRJ5ZNYGHW2AKHXUVW2PCZGMZXIQ",
       "description": "A mobile app making use of IoT cloud platforms to enable authorized users to control their Smart garage and Delivery box remotely using their smart phone.",
       "features": [
         "User login and signup.",
@@ -30,7 +30,7 @@
       "title": "Food Corner",
       "link": "https://github.com/bedre7/food-corner",
       "image": "https://raw.githubusercontent.com/bedre7/food-corner/main/FoodCorner/screenshots/Screenshot%20(434).png",
-      "description": "Process dispatcher shell executing processes based on their priority and arrival time using Multilevel Feedback Queue and FCFS Real Time Queue.",
+      "description": "Developed a full-stack web application for online food ordering.",
       "features": [
         "User Authentication and Authorization.",
         "Globalization and Localization.",
@@ -43,12 +43,11 @@
       "title": "Dispatcher Shell",
       "link": "https://github.com/bedre7/dispatcher-shell",
       "image": "https://raw.githubusercontent.com/bedre7/dispatcher-shell/main/diagram/Blank%20diagram%20(1).png",
-      "description": "Developed a full-stack web application for online food ordering.",
+      "description": "Process dispatcher shell executing processes based on their priority and arrival time using Multilevel Feedback Queue and FCFS Real Time Queue.",
       "features": [
-        "User Authentication and Authorization.",
-        "Globalization and Localization.",
-        "Rest APIs with ASP.NET Core.",
-        "MVC Architecture."
+        "Multilevel Feedback Queue.",
+        "FCFS Real Time Queue.",
+        "Process Scheduling Algorithms."
       ],
       "tags": ["Java", "Operating Systems", "Scheduling Algorithms"]
     }
