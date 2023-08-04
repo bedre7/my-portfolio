@@ -41,7 +41,7 @@ const ProjectItem: FC<Props> = ({
       target="blank"
     >
       <img
-        className="w-[36rem] rounded-t-2xl opacity-[0.85] transition-all group-hover:opacity-100 md:rounded-l-xl md:rounded-t-none"
+        className="w-[36rem] rounded-t-2xl opacity-[0.85] transition-all group-hover:opacity-100 md:rounded-l-xl md:rounded-r-none"
         src={image}
         alt="project snapshot"
       />
@@ -58,7 +58,7 @@ const ProjectItem: FC<Props> = ({
             </li>
           ))}
         </ul>
-        <ul className="mt-3 flex flex-wrap items-center justify-start space-x-2">
+        <ul className="mt-3 flex flex-wrap items-center justify-start space-x-2 space-y-1">
           {tags.map((tag, index) => (
             <li
               key={index}

@@ -1,3 +1,7 @@
 .icon {
   @apply h-8 w-8 fill-gray-400 transition-all group-hover:fill-gray-900;
 }
+
+.active svg {
+  @apply fill-indigo-400;
+}
