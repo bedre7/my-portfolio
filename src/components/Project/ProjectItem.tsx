@@ -1,6 +1,5 @@
 import React, { FC } from "react";
 import { ReactComponent as Tick } from "../../assets/svg/checkmark.svg";
-import { ReactComponent as Github } from "../../assets/svg/github.svg";
 
 interface Props {
   title: string;
@@ -68,14 +67,6 @@ const ProjectItem: FC<Props> = ({
             </li>
           ))}
         </ul>
-        <div className="mt-[1rem] flex w-full items-center justify-center md:justify-end">
-          <button className="w-full rounded-lg bg-purple-600 px-5 py-1 transition-all hover:bg-purple-700 md:w-1/3">
-            <div className="flex items-center justify-center space-x-4">
-              <span className="font-semibold text-gray-200">Show</span>
-              <Github className="fill-gray-200" />
-            </div>
-          </button>
-        </div>
       </div>
     </a>
   );
