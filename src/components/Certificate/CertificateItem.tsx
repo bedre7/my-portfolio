@@ -20,7 +20,7 @@ const CertificateItem: FC<CertificateItemProps> = ({
   issuedBy,
 }) => {
   return (
-    <div className="flex cursor-pointer flex-col items-start justify-center space-x-5 rounded-xl bg-slate-900 transition-all hover:bg-indigo-950 md:flex-row">
+    <div className="group flex cursor-pointer flex-col items-start justify-center space-x-5 rounded-xl bg-slate-900 transition-all hover:bg-indigo-950 md:flex-row">
       <img
         className="w-[32rem] rounded-t-xl opacity-90 transition-all hover:opacity-100 md:rounded-l-xl md:rounded-tr-none"
         src={image}
@@ -35,7 +35,7 @@ const CertificateItem: FC<CertificateItemProps> = ({
           <span className="text-sm font-bold text-gray-300">{date}</span>
         </div>
         <h2 className="text-lg font-semibold text-indigo-400">{title}</h2>
-        <p className="text-gray-400">{description}</p>
+        <p className="text-gray-400 group-hover:text-gray-300">{description}</p>
         <div className="flex w-full items-end justify-end">
           <a
             className="fill-indigo-500 transition-all hover:fill-gray-400"

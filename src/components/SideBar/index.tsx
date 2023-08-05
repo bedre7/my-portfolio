@@ -1,7 +1,6 @@
 import React from "react";
 import { ReactComponent as HomeIcon } from "../../assets/svg/home.svg";
 import { ReactComponent as ProfileIcon } from "../../assets/svg/user.svg";
-import { ReactComponent as BadgeIcon } from "../../assets/svg/badge.svg";
 import { ReactComponent as CertificateIcon } from "../../assets/svg/certificate.svg";
 import { ReactComponent as ToolsIcon } from "../../assets/svg/tools.svg";
 import { ReactComponent as BriefCaseIcon } from "../../assets/svg/briefcase.svg";
@@ -16,10 +15,6 @@ const SideBar = () => {
       <ul>
         <SideBarLink icon={<HomeIcon className="icon" />} text="Home" />
         <SideBarLink icon={<ProfileIcon className="icon" />} text="About" />
-        <SideBarLink
-          icon={<BadgeIcon className="icon" />}
-          text="Achievements"
-        />
         <SideBarLink
           icon={<CertificateIcon className="icon" />}
           text="Certificates"

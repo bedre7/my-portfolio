@@ -26,7 +26,9 @@ const Skills = () => {
       </ul>
       <div className="mt-6 flex items-center justify-start space-x-4">
         <Arrow className="h-6 w-6 fill-pink-400" />
-        <h2 className="text-xl font-semibold text-pink-400">&lt;Databases /&gt;</h2>
+        <h2 className="text-xl font-semibold text-pink-400">
+          &lt;Databases /&gt;
+        </h2>
       </div>
       <ul className="mt-5 flex flex-wrap">
         {databases.map((skill, index) => (
@@ -37,7 +39,9 @@ const Skills = () => {
       </ul>
       <div className="mt-6 flex items-center justify-start space-x-4">
         <Arrow className="h-6 w-6 fill-pink-400" />
-        <h2 className="text-xl font-semibold text-pink-400">&lt;Soft Skills /&gt;</h2>
+        <h2 className="text-xl font-semibold text-pink-400">
+          &lt;Soft Skills /&gt;
+        </h2>
       </div>
       <ul className="mt-5 space-y-3 font-medium text-gray-300">
         <li className="flex cursor-pointer items-center space-x-4 fill-green-400">

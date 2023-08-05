@@ -23,10 +23,19 @@ const About = () => {
           spare time.
         </p>
       </div>
-      <h2 className="mt-20 text-xl font-semibold text-gray-300">
+      <div className="mt-8 flex items-start justify-start">
+        <a
+          className="cursor-pointer rounded-md border-2 border-teal-600 bg-transparent px-12 py-2 font-semibold text-teal-600 transition-all hover:bg-teal-600 hover:text-gray-200"
+          href="https://drive.google.com/file/d/1kd6UE-X1Rci1rCupsiR-593pG225Zm6u/view?usp=drive_link"
+          target="blank"
+        >
+          See Resume
+        </a>
+      </div>
+      <h2 className="mt-10 text-xl font-semibold text-gray-300">
         My GitHub contributions
       </h2>
-      <div className="text-teal-400">
+      <div className="mt-6 text-teal-400">
         <GitHubCalendar
           color="teal"
           username="bedre7"

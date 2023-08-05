@@ -21,7 +21,7 @@ const Certificates = () => {
         <CertificateItem
           title="Problem Solving (Basic) Certificate"
           description="This certification demonstrates that you have the basic skills needed to solve problems with code."
-          date="July 2022"
+          date="June   2022"
           image={problemSolvingCertificate}
           logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/HackerRank_Icon-1000px.png/800px-HackerRank_Icon-1000px.png"
           link="https://www.hackerrank.com/certificates/40e930289f28"
