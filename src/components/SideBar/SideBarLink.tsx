@@ -3,7 +3,7 @@ import { NavLink, useMatch } from "react-router-dom";
 import "./SideBar.scss";
 
 const SideBarLink: FC<{ icon: ReactNode; text: string }> = ({ icon, text }) => {
-  const isActive = !!useMatch(`/${text.toLowerCase()}`);
+  const isActive = Boolean(useMatch(`/${text.toLowerCase()}`));
 
   return (
     <li className="group mx-2 mb-1.5 rounded-md border-b-[1px] border-gray-500 p-2 transition-all hover:translate-x-3 hover:bg-indigo-500">

@@ -1,7 +1,7 @@
 import React from "react";
 import Home from "../../assets/img/home.png";
 import Profile from "../../assets/img/profile.png";
-import Badge from "../../assets/img//badge-2.png";
+// import Badge from "../../assets/img//badge-2.png";
 import Certificate from "../../assets/img/certificate.png";
 import Tools from "../../assets/img/tools.png";
 import BriefCase from "../../assets/img/brief-case.jpg";
@@ -19,7 +19,7 @@ const BottomBar = () => {
         <Icon src={Tools} alt="Skills" />
         <Icon src={BriefCase} alt="Experience" />
         <Icon src={Skills} alt="Projects" />
-        <Icon src={Badge} alt="Achievements" />
+        {/* <Icon src={Badge} alt="Achievements" /> */}
         <Icon src={Certificate} alt="Certificates" />
         <Icon src={Contact} alt="Contact" />
       </div>
