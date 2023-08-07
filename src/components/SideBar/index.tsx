@@ -15,16 +15,16 @@ const SideBar = () => {
       <ul>
         <SideBarLink icon={<HomeIcon className="icon" />} text="Home" />
         <SideBarLink icon={<ProfileIcon className="icon" />} text="About" />
-        <SideBarLink
-          icon={<CertificateIcon className="icon" />}
-          text="Certificates"
-        />
         <SideBarLink icon={<ToolsIcon className="icon" />} text="Skills" />
         <SideBarLink
           icon={<BriefCaseIcon className="icon" />}
           text="Experience"
         />
         <SideBarLink icon={<Rocket className="icon" />} text="Projects" />
+        <SideBarLink
+          icon={<CertificateIcon className="icon" />}
+          text="Certificates"
+        />
         <SideBarLink icon={<ContactIcon className="icon" />} text="Contact" />
       </ul>
     </div>
