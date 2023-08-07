@@ -6,7 +6,7 @@ import problemSolvingCertificate from "../assets/img/HackerRank-problem-solving.
 
 const Certificates = () => {
   return (
-    <div className="flex-1 px-20 pt-10 pb-32">
+    <div className="max-h-[94vh] flex-1 overflow-y-scroll px-20 pb-32 pt-10">
       <Header>Certificates</Header>
       <div className="mt-12 flex flex-col space-y-10">
         <CertificateItem

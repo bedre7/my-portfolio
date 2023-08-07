@@ -7,7 +7,7 @@ import { ReactComponent as Instagram } from "../assets/svg/instagram.svg";
 
 const Contact = () => {
   return (
-    <div className="flex-1 px-20 py-10">
+    <div className="min-h-[94vh] flex-1 px-20 py-10">
       <Header>Contact</Header>
       <p className="text-gray-300">
         If you want to get in touch with me, you can connect with me on...
