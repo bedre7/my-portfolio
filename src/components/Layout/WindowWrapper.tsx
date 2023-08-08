@@ -1,7 +1,6 @@
 import React from "react";
 import Window from "./Window";
 import { ReactComponent as ProfileIcon } from "../../assets/svg/user.svg";
-import { ReactComponent as BadgeIcon } from "../../assets/svg/badge.svg";
 import { ReactComponent as CertificateIcon } from "../../assets/svg/certificate.svg";
 import { ReactComponent as ToolsIcon } from "../../assets/svg/tools.svg";
 import { ReactComponent as BriefCaseIcon } from "../../assets/svg/briefcase.svg";
