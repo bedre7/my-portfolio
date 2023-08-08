@@ -9,7 +9,7 @@ import { programmingLanguages, databases } from "./skills.data";
 
 const Skills = () => {
   return (
-    <div className="flex-1 px-20 py-10">
+    <div className="flex-1 px-5 py-10 md:px-20">
       <Header>Skills</Header>
       <div className="flex items-center justify-start space-x-4">
         <Arrow className="h-6 w-6 fill-pink-400" />

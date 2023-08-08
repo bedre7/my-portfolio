@@ -4,7 +4,7 @@ import GitHubCalendar from "react-github-calendar";
 
 const About = () => {
   return (
-    <div className="flex flex-1 flex-col justify-evenly px-20 py-10">
+    <div className="flex flex-1 flex-col justify-evenly px-5 py-10 md:px-20">
       <div>
         <Header>About me</Header>
         <p className="text-gray-300">

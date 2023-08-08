@@ -36,7 +36,7 @@ const Experience = () => {
   };
 
   return (
-    <div className="flex-1 px-20 py-10">
+    <div className="flex-1 px-5 py-10 md:px-20">
       <Header>Experience</Header>
       <div className="flex justify-center">
         <div>

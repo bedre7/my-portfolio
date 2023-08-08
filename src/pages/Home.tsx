@@ -37,10 +37,12 @@ const Home = () => {
       <div className="spacer layer2 flip md:hidden"></div>
       <section className="pink relative mx-auto flex items-center justify-center">
         <div className="z-10 ml-10 flex w-1/3 flex-col items-start justify-center space-y-2">
-          <h3 className="text-3xl font-semibold text-white">
+          <h3 className="text-2xl font-semibold text-white md:text-3xl">
             Hello World, I'm
           </h3>
-          <h1 className="text-6xl font-semibold text-white">Bedru Umer</h1>
+          <h1 className="text-4xl font-semibold text-white md:text-6xl">
+            Bedru Umer
+          </h1>
           <h3 className="text-3xl font-semibold text-white">
             A <span className="text-purple-400" ref={typingRef}></span>
           </h3>
