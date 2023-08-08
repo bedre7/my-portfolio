@@ -20,7 +20,7 @@ const Certificates = () => {
         />
         <CertificateItem
           title="Problem Solving (Basic) Certificate"
-          description="This certification demonstrates that you have the basic skills needed to solve problems with code."
+          description="This certification demonstrates one's ability to solve problems related to programming."
           date="June 2022"
           image={problemSolvingCertificate}
           logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/HackerRank_Icon-1000px.png/800px-HackerRank_Icon-1000px.png"

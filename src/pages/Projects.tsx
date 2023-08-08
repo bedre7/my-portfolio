@@ -7,7 +7,7 @@ import { ReactComponent as Github } from "../assets/svg/github.svg";
 const Projects = () => {
   const { projects } = allProjects;
   return (
-    <div className="max-h-[94vh] flex-1 overflow-y-scroll px-20 pb-60 pt-10">
+    <div className="max-h-[94vh] flex-1 overflow-y-scroll px-5 pb-60 pt-10 md:px-20">
       <Header>&lt;Projects /&gt;</Header>
       <div>
         {projects.map((project: any, index: number) => (
