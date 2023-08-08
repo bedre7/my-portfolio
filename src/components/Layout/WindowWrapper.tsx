@@ -11,7 +11,6 @@ import { Routes, Route } from "react-router-dom";
 import About from "../../pages/About";
 import Contact from "../../pages/Contact";
 import Skills from "../../pages/Skills";
-import Achievements from "../../pages/Achievements";
 import Projects from "../../pages/Projects";
 import Experience from "../../pages/Experience";
 import Certificates from "../../pages/Certificates";
@@ -26,16 +25,6 @@ const WindowWrapper = () => {
             icon={<ProfileIcon className="fill-gray-400" />}
             header="About"
             content={<About />}
-          />
-        }
-      />
-      <Route
-        path="/achievements"
-        element={
-          <Window
-            icon={<BadgeIcon className="fill-gray-400" />}
-            header="Achievements"
-            content={<Achievements />}
           />
         }
       />
