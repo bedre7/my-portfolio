@@ -14,7 +14,7 @@ const ExperienceItem: FC<Props> = ({ title, date, description }) => {
         <span className="text-xs font-bold text-gray-400">{date}</span>
         <ul className="mt-5">
           {description?.map((item, index) => (
-            <li key={index} className="flex items-center space-x-3">
+            <li key={index} className="flex items-center space-x-3 my-3">
               <Arrow className="h-8 w-6 fill-indigo-600" />
               <span className="text-sm font-semibold text-gray-300">
                 {item}
