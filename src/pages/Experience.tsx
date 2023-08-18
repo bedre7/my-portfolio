@@ -9,7 +9,7 @@ const Experience = () => {
       company: "Havas CX Istanbul",
       logo: "https://media.licdn.com/dms/image/C4D0BAQFMB8bp-6JsLw/company-logo_200_200/0/1671609862379?e=2147483647&v=beta&t=LskxVh40ORWvZP6wOtqyxwNSpaGx2g_wuGv0pQGPWvM",
       title: "Software Engineering Intern",
-      date: "Jul 2023 - Present",
+      date: "Aug 2023 - Present",
       description: [
         "Collaborated within a team of five to conceptualize, design, and develop a clientfocused web application using React, Redux, and TypeScript, ensuring a seamless fusion of functionality and aesthetics.",
         "Contributed to the implementation of a Redis cache solution, leading to a substantial 35% reduction in data access latency and significantly boosting application responsiveness",
@@ -20,7 +20,7 @@ const Experience = () => {
     {
       company: "Company 2",
       logo: "https://media.licdn.com/dms/image/C4D0BAQFMB8bp-6JsLw/company-logo_200_200/0/1671609862379?e=2147483647&v=beta&t=LskxVh40ORWvZP6wOtqyxwNSpaGx2g_wuGv0pQGPWvM",
-      title: "Software Engineering Intern 2",
+      title: "Incoming Software Engineering Intern",
       date: "Aug 2023 - Present",
       description: [
         "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",

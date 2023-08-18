@@ -8,7 +8,7 @@
 
 ## Motivation
 
-I wanted to create a portfolio that was unique and different from the typical portfolio website. I also wanted to use this project as an opportunity to learn TailwindCSS.
+I wanted to create a portfolio that was a little unique and different from the typical portfolio website. I also wanted to use this project as an opportunity to learn TailwindCSS.
 
 ## 🧱 Built With
 
