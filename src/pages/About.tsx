@@ -14,8 +14,7 @@ const About = () => {
           solving programming problems and challenges on platforms like
           LeetCode, CodeForces and Project Euler. I'm curious about how things
           work under the hood in general, which drives me to make things from
-          scratch and learning new things along the way 🚀. Dedication, calmness
-          and patience would be the words that describe me the best. I'm a big
+          scratch and learning new things along the way 🚀. I'm a big
           fan of football ⚽ and I support Arsenal FC. I also like playing table
           tennis 🏓 in my spare time.
         </p>

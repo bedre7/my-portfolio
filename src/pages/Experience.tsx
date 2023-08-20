@@ -11,10 +11,9 @@ const Experience = () => {
       title: "Software Engineering Intern",
       date: "Aug 2023 - Present",
       description: [
-        "Collaborated within a team of five to conceptualize, design, and develop a clientfocused web application using React, Redux, and TypeScript, ensuring a seamless fusion of functionality and aesthetics.",
-        "Contributed to the implementation of a Redis cache solution, leading to a substantial 35% reduction in data access latency and significantly boosting application responsiveness",
-        "Orchestrated a streamlined CI/CD pipeline using GitHub Actions, resulting in enhanced testing, integration, and deployment efficiency while upholding high software engineering standards",
-        "Engineered a robust Node.js server to proficiently manage API requests, guaranteeing a smooth and efficient data flow between client and server components.",
+        "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       ],
     },
     {
