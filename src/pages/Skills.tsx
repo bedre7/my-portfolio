@@ -14,7 +14,7 @@ const Skills = () => {
       <div className="flex items-center justify-start space-x-4">
         <Arrow className="h-6 w-6 fill-pink-400" />
         <h2 className="text-xl font-semibold text-pink-400">
-          &lt;Programming Languages & Frameworks /&gt;
+          &lt;Programming Languages, Libraries & Frameworks /&gt;
         </h2>
       </div>
       <ul className="mt-5 flex max-w-3xl flex-wrap">
