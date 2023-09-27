@@ -67,7 +67,7 @@ const ProjectItem: FC<Props> = ({
           {tags.map((tag, index) => (
             <li
               key={index}
-              className={`${getRandomColor()} rounded-md px-2 py-1 text-xs font-semibold text-white`}
+              className={`${getRandomColor()} rounded-md px-2 py-1 text-xs font-bold text-gray-950`}
             >
               # {tag}
             </li>
