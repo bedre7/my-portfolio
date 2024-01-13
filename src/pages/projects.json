@@ -27,6 +27,26 @@
       "tags": ["React Native", "Typescript", "Firebase", "Arduino", "IoT"]
     },
     {
+      "title": "Sau ES",
+      "link": "https://github.com/bedre7/SauES",
+      "image": "https://raw.githubusercontent.com/bedre7/SauES/main/frontend/screenshot.png",
+      "description": "A custom encryption standard inspired mainly by the DES standard. It is a symmetric key encryption standard.",
+      "features": ["Encryption and Decryption.", "Key Generation.", "S-Boxes."],
+      "tags": ["Python", "Flask", "React", "Typescript", "Tailwind CSS"]
+    },
+    {
+      "title": "Sky Booking",
+      "link": "https://github.com/bedre7/sky-booking",
+      "image": "https://raw.githubusercontent.com/bedre7/sky-booking/main/mobile/assets/logo.png",
+      "description": "This project is a mobile app that allows users to make flight reservations.",
+      "features": [
+        "User login and signup.",
+        "Enable users to search for flights based on their origin and destination.",
+        "Enable users to view their booked flights."
+      ],
+      "tags": ["React Native", "Typescript", "NestJS", "PostgreSQL", "Prisma"]
+    },
+    {
       "title": "Food Corner",
       "link": "https://github.com/bedre7/food-corner",
       "image": "https://raw.githubusercontent.com/bedre7/food-corner/main/FoodCorner/screenshots/Screenshot%20(434).png",
