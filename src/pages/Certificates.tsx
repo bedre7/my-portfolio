@@ -9,7 +9,7 @@ const Certificates = () => {
   return (
     <div className="max-h-[94vh] flex-1 overflow-y-scroll px-5 pb-32 pt-10 md:px-20">
       <Header>Certificates</Header>
-      <div className="mt-12 flex flex-col space-y-10">
+      <div className="mt-12 grid grid-cols-1 gap-8 xl:grid-cols-2">
         <CertificateItem
           title="Top 10 Finalist of A2SV Hacks-Internal Hackathon 2023"
           description="Collaborated with two team members to develop an innovative internship application platform which provided a centralized solution for university students, enabling them to apply for internships and effortlessly track the status of their applications, all within a single platform."

@@ -9,7 +9,7 @@ const Projects = () => {
   return (
     <div className="max-h-[94vh] flex-1 overflow-y-scroll px-5 pb-60 pt-10 md:px-20">
       <Header>&lt;Projects /&gt;</Header>
-      <div>
+      <div className="grid grid-cols-1 gap-8 xl:grid-cols-2">
         {projects.map((project: any, index: number) => (
           <ProjectItem
             key={index}
